@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FFormat</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="responsiv.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="website icon " type="svg" href="img/logoff.svg" />
+  </head>
+  <body>
+    <!-- header -->
+
+    <header class="conteiner">
+      <h2 class="logo"><a href="index.html">FFormat</a></h2>
+      <div class="op-menu" onclick="onMenuModal(this)">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="menu-list">
+        <li><a class="activ" href="/index.html">About</a></li>
+        <li><a href="photo.html">Photo</a></li>
+        <li><a href="video.html">Video</a></li>
+      </ul>
+    </header>
+    <div id="modal-menu-bk" class="modal-menu-bk">
+      <div class="modal-menu">
+        <ul class="menu-modal">
+          <li><a class="activ" href="/index.html">About</a></li>
+          <li><a href="photo.html">Photo</a></li>
+          <li><a href="video.html">Video</a></li>
+          <br />
+          <li>
+            <a href="https://t.me/fformat24" class="telgram" target="_blank">
+              <img src="img/iconTG.svg" alt="TG" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- main -->
+
+    <main>
+      <div class="background-top conteiner">
+        <h2 class="logo">FFormat</h2>
+        <p>
+          Це застосунок який допоможе вивчити основи фото/відео. Ви дізнаєтесь
+          як правильно фотографувати щоб ваши фотографії виглядали так як ви це
+          хочите.
+        </p>
+      </div>
+
+      <div class="info-text conteiner">
+        <img src="img/night-1927265_1280 1.png" alt="Photo" />
+        <div class="about-text">
+          <p>
+            Якщо ви хочите фотографувати чи знімати відео для себе чи для
+            бізнесу задопомогою цього сайта ви навчитеся це робит професійно.
+            Тому що вся інформація буде дана від професійного фотографа і це все
+            в розумілому форматі.
+          </p>
+          <div class="buttons-in">
+            <button onclick="onModalSoon()">Отримати концультацію</button>
+            <button onclick="onModalSoon()">Підтримати проект</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="modalSoon">
+        <div onclick="closeModalSoon()"></div>
+        <img src="img/free-animated-icon-hacker-6569144.png" alt="(-_-)" />
+        <p>Ця функція наразі недоступна</p>
+      </div>
+
+      <h3 class="ctg-h3">Почини вчити зараз!</h3>
+
+      <div class="categories conteiner">
+        <a class="linkop" href="photo.html">
+          <div class="ctg-ph-vd ctg-photo">
+            <img src="img/photoopn.png" alt="PHOTO" />
+            <h4>Photo</h4>
+          </div>
+        </a>
+        <a class="linkop" href="video.html">
+          <div class="ctg-ph-vd ctg-video">
+            <img src="img/videoopn.png" alt="VIDEO" />
+            <h4>Video</h4>
+          </div>
+        </a>
+      </div>
+    </main>
+
+    <!-- footer -->
+
+    <footer class="conteiner">
+      <h2 class="logo"><a href="index.html">FFormat</a></h2>
+      <a href="https://t.me/fformat24" class="telgram" target="_blank">
+        <img src="img/iconTG.svg" alt="TG" />
+      </a>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>

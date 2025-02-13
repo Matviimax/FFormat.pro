@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FFormat/Video</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="responsiv.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="website icon " type="svg" href="img/logoff.svg" />
+  </head>
+  <body>
+    <!-- header -->
+
+    <header class="conteiner">
+      <h2 class="logo"><a href="index.html">FFormat</a></h2>
+      <div class="op-menu" onclick="onMenuModal(this)">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="menu-list">
+        <li><a href="/index.html">About</a></li>
+        <li><a href="photo.html">Photo</a></li>
+        <li><a class="activ" href="video.html">Video</a></li>
+      </ul>
+    </header>
+    <div id="modal-menu-bk" class="modal-menu-bk">
+      <div class="modal-menu">
+        <ul class="menu-modal">
+          <li><a href="/index.html">About</a></li>
+          <li><a href="photo.html">Photo</a></li>
+          <li><a class="activ" href="video.html">Video</a></li>
+          <br />
+          <li>
+            <a href="https://t.me/fformat24" class="telgram" target="_blank">
+              <img src="img/iconTG.svg" alt="TG" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- main -->
+
+    <main>
+      <div class="background-top conteiner">
+        <h2 class="logo bold">Video</h2>
+      </div>
+
+      <div class="art conteiner">
+        <a href="#preparation">Підготовка</a>
+        <a href="#equipment">Обладнання</a>
+        <a href="#lighting">Освітлення</a>
+        <a href="#sound">Звук</a>
+        <a href="#composition">Композиція</a>
+        <a href="#assembling">Монтаж</a>
+      </div>
+
+      <div class="info-text conteiner">
+        <img src="img/camera-7903435_1280 1.png" alt="Photo" />
+        <div class="about-text">
+          <p>
+            Відеозйомка – це складний процес, який потребує знань, навичок і
+            творчого підходу. <br />
+            Ми розглянемо основні аспекти, які варто врахувати для хорошої
+            відеозйомки:
+          </p>
+          <div class="buttons-in">
+            <button onclick="onModalSoon()">Отримати концультацію</button>
+            <button onclick="onModalSoon()">Підтримати проект</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="modalSoon">
+        <div onclick="closeModalSoon()"></div>
+        <img src="img/free-animated-icon-hacker-6569144.png" alt="(-_-)" />
+        <p>Ця функція наразі недоступна</p>
+      </div>
+
+      <div class="conteiner list">
+        <ol>
+          <li id="preparation" class="title">
+            Підготовка
+            <ol>
+              <li class="title tip">
+                Планування
+                <ul>
+                  <li class="par">
+                    Сценарій: Напишіть детальний сценарій, який включає діалоги,
+                    дії, локації та необхідне обладнання.
+                  </li>
+                  <li class="par">
+                    Розкадрування: Зробіть ескізи кадрів, щоб візуалізувати, як
+                    буде виглядати відео.
+                  </li>
+                </ul>
+              </li>
+
+              <li class="title tip">
+                Локація
+                <ul>
+                  <li class="par">
+                    Вибір місця: Оберіть місце з хорошим освітленням і
+                    акустикою.
+                  </li>
+                  <li class="par">
+                    Розвідка локації: Перевірте місце зйомки заздалегідь, щоб
+                    уникнути несподіванок.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+          </li>
+
+          <div class="mode-top vid-ph1"></div>
+
+          <li id="equipment" class="title">
+            Обладнання
+            <ol>
+              <li class="title tip">
+                Камери
+                <ul>
+                  <li class="par">
+                    Тип камери: Оберіть камеру відповідно до вашого бюджету та
+                    вимог (DSLR, бездзеркальна камера, відеокамера чи смартфон).
+                  </li>
+                  <li class="par">
+                    Налаштування: Ознайомтесь з основними налаштуваннями камери
+                    (ISO, діафрагма, витримка, баланс білого).
+                  </li>
+                </ul>
+              </li>
+
+              <li class="title tip">
+                Лінзи
+                <ul>
+                  <li class="par">
+                    Вибір об’єктива: Використовуйте різні об'єктиви для різних
+                    типів зйомок (ширококутний, телеоб’єктив, макро).
+                  </li>
+                </ul>
+              </li>
+
+              <li class="title tip">
+                Стабілізація
+                <ul>
+                  <li class="par">Штатив: Забезпечує стабільність камери.</li>
+                  <li class="par">Gimbal: Для зйомки в русі.</li>
+                  <li class="par">
+                    Стабілізатори: Можуть бути корисними для ручної зйомки.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+          </li>
+
+          <div class="mode-top vid-ph2"></div>
+
+          <li id="lighting" class="title">
+            Освітлення
+            <ol>
+              <li class="title tip">
+                Природне освітлення
+                <ul>
+                  <li class="par">
+                    Час зйомки: Найкраще знімати вранці або ввечері, коли світло
+                    м’яке.
+                  </li>
+                  <li class="par">
+                    Відбивачі: Використовуйте відбивачі для управління світлом.
+                  </li>
+                </ul>
+              </li>
+
+              <li class="title tip">
+                Штучне освітлення
+                <ul>
+                  <li class="par">
+                    Типи світильників: LED, флуоресцентні, вольфрамові лампи.
+                  </li>
+                  <li class="par">
+                    Розміщення світильників: Використовуйте триточкове
+                    освітлення (ключове світло, заповнююче світло, контрове
+                    світло).
+                  </li>
+                </ul>
+              </li>
+            </ol>
+          </li>
+
+          <div class="mode-top vid-ph3"></div>
+
+          <li id="sound" class="title">
+            Звук
+            <ol>
+              <li class="title tip">
+                Мікрофони
+                <ul>
+                  <li class="par">
+                    Типи мікрофонів: Петличні мікрофони, накамерні мікрофони,
+                    бум-мікрофони.
+                  </li>
+                  <li class="par">
+                    Запис звуку: Записуйте звук окремо, якщо це можливо, для
+                    кращої якості.
+                  </li>
+                </ul>
+              </li>
+
+              <li class="title tip">
+                Акустика
+                <ul>
+                  <li class="par">
+                    Місце зйомки: Оберіть місце з хорошою акустикою або
+                    використовуйте звукопоглинаючі матеріали.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+          </li>
+
+          <div class="mode-top vid-ph4"></div>
+
+          <li id="composition" class="title">
+            Композиція кадру
+            <ol>
+              <li class="title tip">
+                Правило третин
+                <ul>
+                  <li class="par">
+                    Розміщення об’єктів: Розміщуйте важливі елементи по лініях
+                    третин для кращого балансу.
+                  </li>
+                </ul>
+              </li>
+
+              <li class="title tip">
+                Лінії
+                <ul>
+                  <li class="par">
+                    Лінії перспективи: Використовуйте лінії для направлення
+                    погляду глядача.
+                  </li>
+                </ul>
+              </li>
+
+              <li class="title tip">
+                Ракурси
+                <ul>
+                  <li class="par">
+                    Різні ракурси: Використовуйте різні ракурси для динаміки і
+                    цікавості кадру.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+          </li>
+
+          <div class="mode-top vid-ph5"></div>
+
+          <li id="assembling" class="title">
+            Монтаж
+            <ol>
+              <li class="title tip">
+                Програмне забезпечення
+                <ul>
+                  <li class="par">
+                    Програми: Adobe Premiere Pro, Final Cut Pro, DaVinci Resolve
+                    та інші.
+                  </li>
+                  <li class="par">
+                    Основи монтажу: Навчіться базовим прийомам монтажу, таким як
+                    нарізка, склейка, робота з аудіо.
+                  </li>
+                </ul>
+              </li>
+
+              <li class="title tip">
+                Колірна корекція
+                <ul>
+                  <li class="par">
+                    Баланс білого: Вирівнюйте кольори між різними кадрами.
+                  </li>
+                  <li class="par">
+                    Колірні профілі: Використовуйте LUTs для стилізації відео.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+          </li>
+
+          <div class="mode-top vid-ph6"></div>
+
+          <li class="title">
+            Креативність і експеримент
+            <ol>
+              <li class="title tip">
+                Надихайтесь
+                <ul>
+                  <li class="par">
+                    Дивіться фільми та відео: Аналізуйте роботи інших для
+                    натхнення.
+                  </li>
+                </ul>
+              </li>
+
+              <li class="title tip">
+                Експериментуйте
+                <ul>
+                  <li class="par">
+                    Тестуйте різні підходи: Не бійтеся пробувати нові техніки і
+                    підходи до зйомки.
+                  </li>
+                </ul>
+              </li>
+            </ol>
+          </li>
+
+          <div class="mode-top vid-ph7"></div>
+        </ol>
+      </div>
+    </main>
+
+    <!-- footer -->
+
+    <footer class="conteiner">
+      <h2 class="logo"><a href="index.html">FFormat</a></h2>
+      <a href="https://t.me/fformat24" class="telgram" target="_blank">
+        <img src="img/iconTG.svg" alt="TG" />
+      </a>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FFormat/Photo</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="responsiv.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="website icon " type="svg" href="img/logoff.svg" />
+  </head>
+  <body>
+    <!-- header -->
+
+    <header class="conteiner">
+      <h2 class="logo"><a href="index.html">FFormat</a></h2>
+      <div class="op-menu" onclick="onMenuModal(this)">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="menu-list">
+        <li><a href="/index.html">About</a></li>
+        <li><a class="activ" href="photo.html">Photo</a></li>
+        <li><a href="video.html">Video</a></li>
+      </ul>
+    </header>
+    <div id="modal-menu-bk" class="modal-menu-bk">
+      <div class="modal-menu">
+        <ul class="menu-modal">
+          <li><a href="/index.html">About</a></li>
+          <li><a class="activ" href="photo.html">Photo</a></li>
+          <li><a href="video.html">Video</a></li>
+          <br />
+          <li>
+            <a href="https://t.me/fformat24" class="telgram" target="_blank">
+              <img src="img/iconTG.svg" alt="TG" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- main -->
+
+    <main>
+      <div class="background-top conteiner">
+        <h2 class="logo bold">Photo</h2>
+      </div>
+
+      <div class="art conteiner">
+        <a href="#modes">Режими</a>
+        <a href="#parameters">Параметри</a>
+        <a href="#composition">Композиція</a>
+        <a href="#conclusion">Висновок</a>
+        <a href="#apps">Top 10 apps</a>
+        <a href="#simulator">Simulator</a>
+      </div>
+
+      <div id="modes" class="mode-top">
+        <p>Який режим вибрати?</p>
+      </div>
+
+      <div class="paragraf conteiner">
+        <p>
+          Розберемо режими які існують на камерах Режими камер можуть значно
+          полегшити або розширити можливості фотографування залежно від
+          ситуації. Це огляд основних режимів, які ви можете знайти в більшості
+          цифрових камер:
+        </p>
+      </div>
+
+      <div class="conteiner list">
+        <ol>
+          <li class="title">
+            Автоматичний режим (Auto Mode)
+            <ul>
+              <li class="par">
+                У цьому режимі камера самостійно визначає всі налаштування
+                (витримку, діафрагму, ISO тощо), щоб забезпечити найкращу
+                експозицію. Це зручно для початківців або в ситуаціях, коли
+                потрібно швидко зробити знімок.
+              </li>
+            </ul>
+          </li>
+
+          <li class="title">
+            Програмний режим (P - Program Mode)
+            <ul>
+              <li class="par">
+                Камера автоматично визначає експозицію, але користувач має
+                можливість змінювати деякі параметри, такі як баланс білого, ISO
+                та інші. Це дає більше контролю порівняно з автоматичним
+                режимом.
+              </li>
+            </ul>
+          </li>
+
+          <li class="title">
+            Пріоритет витримки (S або Tv - Shutter Priority)
+            <ul>
+              <li class="par">
+                Фотограф задає витримку, а камера автоматично визначає інші
+                параметри, щоб забезпечити правильну експозицію. Цей режим
+                корисний при зйомці об'єктів, що швидко рухаються, де важливо
+                заморозити рух або показати рух розмито.
+              </li>
+            </ul>
+          </li>
+
+          <li class="title">
+            Пріоритет діафрагми (A або Av - Aperture Priority)
+            <ul>
+              <li class="par">
+                Фотограф задає діафрагму, а камера автоматично визначає інші
+                параметри. Використовується для контролю глибини різкості, що
+                важливо при портретній зйомці або пейзажах.
+              </li>
+            </ul>
+          </li>
+
+          <li class="title">
+            Ручний режим (M - Manual Mode)
+            <ul>
+              <li class="par">
+                Фотограф самостійно налаштовує всі параметри: витримку,
+                діафрагму, ISO тощо. Це дає повний контроль над зйомкою і
+                дозволяє отримувати саме ті результати, які заплановані
+              </li>
+            </ul>
+          </li>
+
+          <li class="title">
+            Сцени (Scene Modes)
+            <ul>
+              <li class="par">
+                Це попередньо налаштовані режими для певних ситуацій, як-от
+                портрет, спорт, макро, нічний режим та інші. Камера автоматично
+                налаштовує параметри під конкретну сцену.
+              </li>
+            </ul>
+          </li>
+
+          <li class="title">
+            Панорамний режим (Panorama Mode)
+            <ul>
+              <li class="par">
+                Цей режим дозволяє знімати серію знімків, які потім автоматично
+                зшиваються в одну панорамну фотографію.
+              </li>
+            </ul>
+          </li>
+
+          <li class="title">
+            HDR режим (High Dynamic Range)
+            <ul>
+              <li class="par">
+                Камера робить кілька знімків з різною експозицією і поєднує їх в
+                одну фотографію з високим динамічним діапазоном, що дозволяє
+                зберегти деталі як у світлих, так і в темних областях.
+              </li>
+            </ul>
+          </li>
+
+          <li class="title">
+            Творчі режими (Creative Modes)
+            <ul>
+              <li class="par">
+                Ці режими дозволяють застосовувати різні фільтри та ефекти
+                безпосередньо під час зйомки, такі як чорно-білий, сепія,
+                високий контраст і т. д.
+              </li>
+            </ul>
+          </li>
+
+          <li class="title">
+            Режим зйомки відео (Video Mode)
+            <ul>
+              <li class="par">
+                Дозволяє знімати відео з можливістю налаштування різних
+                параметрів, як-от частота кадрів, роздільна здатність і ISO.
+              </li>
+            </ul>
+          </li>
+
+          <li class="title tip">
+            Поради для використання різних режимів:
+            <ul>
+              <li class="par">
+                Автоматичний режим підходить для швидких знімків без зайвих
+                налаштувань.
+              </li>
+              <li class="par">
+                Пріоритет витримки використовуйте для спортивних подій або
+                рухомих об'єктів.
+              </li>
+              <li class="par">
+                Пріоритет діафрагми підійде для портретів або створення ефекту
+                боке.
+              </li>
+              <li class="par">
+                Ручний режим використовуйте, коли хочете повністю контролювати
+                процес зйомки.
+              </li>
+              <li class="par">
+                Сценові режими зручно використовувати для специфічних умов, коли
+                ви не впевнені, які налаштування обрати.
+              </li>
+            </ul>
+          </li>
+        </ol>
+        <br />
+        <p>
+          Використовуючи ці режими, ви зможете отримувати кращі фотографії,
+          відповідно до умов зйомки та ваших творчих задумів.
+        </p>
+      </div>
+
+      <div id="parameters" class="mode-top">
+        <p>Основні параметри</p>
+      </div>
+
+      <div class="paragraf conteiner">
+        <p>
+          Розглянемо основні параметри, які впливають на якість і вигляд
+          фотографій: ISO, витримка, діафрагма, баланс білого, фокусна відстань
+          і експозиція.
+        </p>
+      </div>
+
+      <div class="conteiner">
+        <div class="tool">
+          <div class="tool-top">
+            <h4>ISO</h4>
+            <ol class="title tip">
+              ISO визначає чутливість сенсора камери до світла.
+              <li class="par">
+                Низьке значення ISO (100-400) використовується при достатньому
+                освітленні (сонячний день).
+              </li>
+              <li class="par">
+                Високе значення ISO (800 і більше) використовується в умовах
+                слабкого освітлення.
+              </li>
+              <li class="par">
+                Збільшення ISO підвищує чутливість сенсора, але також може
+                призводити до виникнення шуму (зернистості) на знімках.
+              </li>
+            </ol>
+          </div>
+          <div class="tool-bot">
+            <ol class="title tip">
+              Як виставити параметер:
+              <li class="par">
+                Почніть з низького ISO (100 або 200) і підвищуйте його лише за
+                необхідності.
+              </li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="tool">
+          <div class="tool-top">
+            <h4>
+              Витримка <br />
+              (Shutter Speed)
+            </h4>
+            <ol class="title tip">
+              Витримка визначає, як довго затвор камери залишається відкритим
+              під час зйомки.
+
+              <li class="par">
+                Коротка витримка (1/1000 с або швидше) використовується для
+                заморожування руху (спорт, швидко рухомі об'єкти).
+              </li>
+              <li class="par">
+                Довга витримка (1/60 с і більше) використовується для
+                фотографування в умовах низького освітлення або для створення
+                ефектів руху (наприклад, розмиття води або сліди автомобільних
+                фар).
+              </li>
+              <li class="par">
+                Довга витримка вимагає використання штатива, щоб уникнути
+                розмиття через тремтіння рук.
+              </li>
+            </ol>
+          </div>
+          <div class="tool-bot">
+            <ol class="title tip">
+              Як виставити параметер:
+              <li class="par">
+                Для статичних об'єктів використовуйте витримку 1/60 с або довше.
+              </li>
+              <li class="par">
+                Для рухомих об'єктів використовуйте коротку витримку (1/250 с
+                або швидше).
+              </li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="tool">
+          <div class="tool-top">
+            <h4>
+              Діафрагма <br />
+              (Aperture)
+            </h4>
+            <ol class="title tip">
+              Діафрагма визначає розмір отвору в об'єктиві, через який проходить
+              світло.
+
+              <li class="par">
+                Великий отвір (мале значення f/2.8, f/1.8) дозволяє більше
+                світла і створює меншу глибину різкості (добре для портретів з
+                розмитим фоном).
+              </li>
+              <li class="par">
+                Малий отвір (велике значення f/16, f/22) дозволяє менше світла і
+                створює велику глибину різкості (добре для пейзажів).
+              </li>
+            </ol>
+          </div>
+          <div class="tool-bot">
+            <ol class="title tip">
+              Як виставити параметер:
+              <li class="par">
+                Для портретів використовуйте широку діафрагму (f/2.8 або f/1.8).
+              </li>
+              <li class="par">
+                Для пейзажів використовуйте вузьку діафрагму (f/11 або більше).
+              </li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="tool">
+          <div class="tool-top">
+            <h4>
+              Баланс білого <br />
+              (White Balance)
+            </h4>
+            <ol class="title tip">
+              Баланс білого визначає, як камера сприймає кольори при різному
+              освітленні.
+
+              <li class="par">
+                Автоматичний баланс білого (AWB) намагається визначити
+                правильний баланс автоматично.
+              </li>
+              <li class="par">
+                Ручні налаштування можуть включати опції для денного світла,
+                тіні, хмарності, лампи розжарювання, флуоресцентного світла
+                тощо.
+              </li>
+            </ol>
+          </div>
+          <div class="tool-bot">
+            <ol class="title tip">
+              Як виставити параметер:
+              <li class="par">
+                Використовуйте автоматичний баланс білого, якщо не впевнені у
+                налаштуваннях.
+              </li>
+              <li class="par">
+                У разі специфічного освітлення встановлюйте вручну.
+              </li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="tool">
+          <div class="tool-top">
+            <h4>
+              Фокусна відстань <br />
+              (Focal Length)
+            </h4>
+            <ol class="title tip">
+              Фокусна відстань визначає ступінь збільшення об'єкта зйомки.
+              <li class="par">
+                Коротка фокусна відстань (ширококутний об'єктив) дає широке поле
+                зору і підходить для пейзажів.
+              </li>
+              <li class="par">
+                Довга фокусна відстань (телеоб'єктив) дає вузьке поле зору і
+                підходить для зйомки віддалених об'єктів (спорт, дика природа).
+              </li>
+            </ol>
+          </div>
+          <div class="tool-bot">
+            <ol class="title tip">
+              Як виставити параметер:
+              <li class="par">
+                Для загальних зйомок використовуйте стандартний зум-об'єктив
+                (18-55 мм).
+              </li>
+              <li class="par">
+                Для віддалених об'єктів використовуйте телеоб'єктив (70-200 мм).
+              </li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="tool">
+          <div class="tool-top">
+            <h4>
+              Експозиція <br />
+              (Exposure)
+            </h4>
+            <ol class="title tip">
+              Експозиція визначає загальну кількість світла, яке потрапляє на
+              сенсор.
+              <li class="par">
+                Переекспонована фотографія буде надто світлою.
+              </li>
+              <li class="par">Недоекспонована фотографія буде надто темною.</li>
+              <li class="par">
+                Експозиція регулюється трьома параметрами: ISO, витримкою і
+                діафрагмою.
+              </li>
+            </ol>
+          </div>
+          <div class="tool-bot">
+            <ol class="title tip">
+              Як виставити параметер:
+              <li class="par">
+                Використовуйте експозамер камери, щоб оцінити експозицію і при
+                необхідності коригуйте її експозиційною компенсацією.
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+
+      <div id="composition" class="mode-top">
+        <p>Композиція</p>
+      </div>
+
+      <div class="paragraf conteiner">
+        <p>
+          Композиція є ключовим елементом в фотографії, який допомагає
+          створювати візуально привабливі і гармонійні знімки. Розглянемо
+          основні принципи композиції:
+        </p>
+      </div>
+
+      <div class="conteiner list">
+        <ol>
+          <li class="title">
+            Правило третин (Rule of Thirds)
+            <ul>
+              <li class="par">
+                Кадр ділиться на дев'ять рівних частин за допомогою двох
+                горизонтальних і двох вертикальних ліній. Важливі елементи
+                зображення розміщуються вздовж цих ліній або на їх перетинах, що
+                створює більш збалансований і цікавий кадр.
+              </li>
+            </ul>
+          </li>
+          <div class="photo-cont">
+            <img src="img/ph1.png" alt="ph1" />
+            <img src="img/phr1.png" alt="phr1" />
+          </div>
+
+          <li class="title">
+            Центральна композиція
+            <ul>
+              <li class="par">
+                Основний об'єкт розміщується в центрі кадру. Це може бути
+                ефективним для створення симетрії та фокусування уваги на
+                головному об'єкті.
+              </li>
+            </ul>
+          </li>
+
+          <div class="photo-cont">
+            <img src="img/ph2.png" alt="ph2" />
+            <img src="img/phr2.png" alt="phr2" />
+          </div>
+
+          <li class="title">
+            Золотий перетин (Golden Ratio)
+            <ul>
+              <li class="par">
+                Це більш складний варіант правила третин, де композиція
+                базується на математичному відношенні приблизно 1:1.618. Об'єкти
+                розташовуються уздовж спіралі золотого перетину, що створює
+                гармонійний і природний вигляд кадру.
+              </li>
+            </ul>
+          </li>
+
+          <div class="photo-cont">
+            <img src="img/ph3.png" alt="ph3" />
+            <img src="img/phr3.png" alt="phr3" />
+          </div>
+
+          <li class="title">
+            Лінії і напрямки (Leading Lines)
+            <ul>
+              <li class="par">
+                Використання ліній в кадрі (дороги, річки, будівлі), які ведуть
+                очі глядача до головного об'єкта. Це додає глибини і динаміки до
+                зображення.
+              </li>
+            </ul>
+          </li>
+
+          <li class="title">
+            Рамка в рамці (Frame within a Frame)
+            <ul>
+              <li class="par">
+                Використання елементів сцени для створення природних рамок
+                навколо основного об'єкта (наприклад, двері, вікна, арки). Це
+                допомагає сфокусувати увагу на головному об'єкті і додає
+                глибини.
+              </li>
+            </ul>
+          </li>
+
+          <li class="title">
+            Відкритий простір (Negative Space)
+            <ul>
+              <li class="par">
+                Залишення великої кількості порожнього простору навколо
+                головного об'єкта. Це дозволяє підкреслити важливість об'єкта і
+                створює мінімалістичний вигляд.
+              </li>
+            </ul>
+          </li>
+
+          <li class="title">
+            Баланс (Balance)
+            <ul>
+              <li class="par">
+                Досягнення візуальної рівноваги в кадрі. Симетричний баланс
+                використовує однакові елементи по обидві сторони від центру, а
+                асиметричний баланс використовує різні елементи для створення
+                рівноваги.
+              </li>
+            </ul>
+          </li>
+
+          <li class="title tip">
+            Поради для розміщення моделей або об'єктів:
+            <ul>
+              <li class="par">
+                Розміщення об'єкта на перетинах ліній правил третин робить
+                зображення більш динамічним.
+              </li>
+              <li class="par">
+                Залучайте природні лінії і рамки для спрямування уваги на
+                головний об'єкт.
+              </li>
+              <li class="par">
+                Експериментуйте з центральною композицією для симетричних і
+                зосереджених кадрів.
+              </li>
+              <li class="par">
+                Використовуйте негативний простір для створення мінімалістичних
+                знімків.
+              </li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+
+      <div id="apps" class="mode-top">
+        <p>Топ-10 програм для фото обробки</p>
+      </div>
+
+      <div class="conteiner list">
+        <ul>
+          <li class="title tip">
+            <div class="app-cont">
+              <img
+                class="app-icon"
+                src="img/Adobe_Photoshop_CC_icon.svg 1.svg"
+                alt="Icon"
+              />
+              Adobe Photoshop
+            </div>
+
+            <ul>
+              <li class="par">
+                Одна з найпотужніших і найпопулярніших програм для редагування
+                фотографій, що пропонує широкий набір інструментів для ретуші,
+                корекції кольорів, роботи з шарами і масками.
+              </li>
+              <li class="par">Windows, macOS</li>
+              <li class="par">Платна (доступні підписки)</li>
+            </ul>
+          </li>
+
+          <li class="title tip">
+            <div class="app-cont">
+              <img class="app-icon" src="img/ligroom.svg" alt="Icon" />
+              Adobe Lightroom
+            </div>
+
+            <ul>
+              <li class="par">
+                Програма спеціалізується на управлінні та обробці великих
+                колекцій фотографій. Зручний інтерфейс для базової та розширеної
+                корекції кольорів, налаштувань експозиції, роботи з RAW файлами.
+              </li>
+              <li class="par">Windows, macOS, iOS, Android</li>
+              <li class="par">Платна (доступні підписки)</li>
+            </ul>
+          </li>
+
+          <li class="title tip">
+            <div class="app-cont">
+              <img class="app-icon" src="img/wilber-big 1.svg" alt="Icon" />
+              GIMP (GNU Image Manipulation Program)
+            </div>
+
+            <ul>
+              <li class="par">
+                Потужна безкоштовна програма з відкритим кодом для редагування
+                зображень, яка підтримує багато функцій, схожих на Adobe
+                Photoshop.
+              </li>
+              <li class="par">Windows, macOS, Linux</li>
+              <li class="par">Безкоштовна</li>
+            </ul>
+          </li>
+
+          <li class="title tip">
+            <div class="app-cont">
+              <img
+                class="app-icon"
+                src="img/Affinity_Photo_V2_icon.svg 1.svg"
+                alt="Icon"
+              />
+              Affinity Photo
+            </div>
+
+            <ul>
+              <li class="par">
+                Альтернатива Adobe Photoshop з високою продуктивністю та широким
+                набором інструментів для редагування фотографій. Відома своїм
+                одноразовим платежем без підписки.
+              </li>
+              <li class="par">Windows, macOS, iOS</li>
+              <li class="par">Платна (одноразовий платіж)</li>
+            </ul>
+          </li>
+
+          <li class="title tip">
+            <div class="app-cont">
+              <img
+                class="app-icon"
+                src="img/CAPTURE_ONE_LOGO.svg 1.svg"
+                alt="Icon"
+              />
+              Capture One
+            </div>
+
+            <ul>
+              <li class="par">
+                Професійна програма для обробки фотографій з акцентом на роботу
+                з RAW файлами. Відома своїми точними кольоровими корекціями і
+                високою продуктивністю.
+              </li>
+              <li class="par">Windows, macOS</li>
+              <li class="par">Платна (доступні підписки)</li>
+            </ul>
+          </li>
+
+          <li class="title tip">
+            <div class="app-cont">
+              <img
+                class="app-icon"
+                src="img/1200px-Darktable_icon.svg 1.svg"
+                alt="Icon"
+              />
+              Darktable
+            </div>
+
+            <ul>
+              <li class="par">
+                Безкоштовна програма з відкритим кодом для роботи з RAW файлами
+                та базової обробки зображень. Є гарною альтернативою Adobe
+                Lightroom.
+              </li>
+              <li class="par">Windows, macOS, Linux</li>
+              <li class="par">Безкоштовна</li>
+            </ul>
+          </li>
+
+          <li class="title tip">
+            <div class="app-cont">
+              <img
+                class="app-icon"
+                src="img/skylum-luminar-neo 1.svg"
+                alt="Icon"
+              />
+              Skylum Luminar
+            </div>
+
+            <ul>
+              <li class="par">
+                Програма з інтуїтивно зрозумілим інтерфейсом, яка пропонує
+                потужні інструменти для обробки фотографій, включаючи штучний
+                інтелект для автоматизації багатьох процесів.
+              </li>
+              <li class="par">Windows, macOS</li>
+              <li class="par">Платна (одноразовий платіж)</li>
+            </ul>
+          </li>
+
+          <li class="title tip">
+            <div class="app-cont">
+              <img
+                class="app-icon"
+                src="img/Snapseed_Logo.svg 1.svg"
+                alt="Icon"
+              />
+              Snapseed
+            </div>
+
+            <ul>
+              <li class="par">
+                Мобільний додаток для обробки фотографій від Google, який
+                пропонує широкий набір інструментів для корекції зображень,
+                включаючи фільтри і точкові корекції.
+              </li>
+              <li class="par">iOS, Android</li>
+              <li class="par">Безкоштовна</li>
+            </ul>
+          </li>
+
+          <li class="title tip">
+            <div class="app-cont">
+              <img
+                class="app-icon"
+                src="img/wk6d4zg20nphxvub5nn6q5agd70h 1.svg"
+                alt="Icon"
+              />
+              Fotor
+            </div>
+
+            <ul>
+              <li class="par">
+                Онлайн-платформа та додаток для обробки фотографій, що пропонує
+                зручні інструменти для базової корекції, фільтри та ефекти.
+              </li>
+              <li class="par">Windows, macOS, iOS, Android, веб-версія</li>
+              <li class="par">Безкоштовна (є платні функції)</li>
+            </ul>
+          </li>
+
+          <li class="title tip">
+            <div class="app-cont">
+              <img class="app-icon" src="img/unnamed 1.svg" alt="Icon" />
+              Pixlr
+            </div>
+
+            <ul>
+              <li class="par">
+                Онлайн-редактор фотографій, що пропонує широкий спектр
+                інструментів для редагування зображень, схожих на
+                функціональність Photoshop.
+              </li>
+              <li class="par">Веб-версія, iOS, Android</li>
+              <li class="par">Безкоштовна (є платні функції)</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div id="conclusion" class="mode-top">
+        <p>Висновок</p>
+      </div>
+
+      <div class="conteiner list">
+        <p>
+          Розуміння і правильне використання режимів камери та основних
+          параметрів, таких як ISO, витримка, діафрагма, баланс білого, фокусна
+          відстань та експозиція, є ключем до створення якісних і професійних
+          фотографій. <br />
+          Композиція, включаючи принципи правила третин, золотого перетину,
+          ліній і напрямків, рамки в рамці, відкритого простору та балансу,
+          відіграє вирішальну роль у визначенні розташування моделі чи об'єкта в
+          кадрі.
+        </p>
+        <br />
+        <p>
+          Практика та експерименти з цими налаштуваннями і принципами дозволять
+          вам вдосконалювати свої навички фотографа, створюючи візуально
+          привабливі і технічно досконалі знімки. <br />
+          Незалежно від рівня вашої підготовки, завжди важливо продовжувати
+          вивчати і застосовувати ці знання, щоб досягати найкращих результатів
+          у своїх фотографіях.
+        </p>
+      </div>
+
+      <div id="simulator" class="mode-top lens-sim">
+        <p>Simulator</p>
+      </div>
+
+      <div class="paragraf conteiner">
+        <p>
+          Photo Simulator - завантажте сюди фотографію та спробуйте змінити її
+          параметри щоб зрозуміти як це пращює.
+        </p>
+      </div>
+
+      <div class="centered-content">
+        <section class="sim-container">
+          <div class="image-container">
+            <img id="photo" alt="Photo" />
+          </div>
+          <input type="file" id="upload" accept="image/*" />
+          <div class="slider-container">
+            <label for="iso">ISO: <span id="isoValue">100</span></label>
+            <input
+              type="range"
+              id="iso"
+              min="100"
+              max="3200"
+              step="100"
+              value="100"
+            />
+
+            <label for="shutter"
+              >Витримка (сек): <span id="shutterValue">1/100</span></label
+            >
+            <input
+              type="range"
+              id="shutter"
+              min="1"
+              max="1000"
+              step="1"
+              value="100"
+            />
+
+            <label for="aperture"
+              >Діафрагма (f/): <span id="apertureValue">2.8</span></label
+            >
+            <input
+              type="range"
+              id="aperture"
+              min="1.4"
+              max="22"
+              step="0.1"
+              value="2.8"
+            />
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- footer -->
+
+    <footer class="conteiner">
+      <h2 class="logo"><a href="index.html">FFormat</a></h2>
+      <a href="https://t.me/fformat24" class="telgram" target="_blank">
+        <img src="img/iconTG.svg" alt="TG" />
+      </a>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
